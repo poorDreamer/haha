@@ -1,0 +1,132 @@
+[10:39:36] [INFO] -org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305) -Root WebApplicationContext: initialization started
+  [10:39:36] [INFO] -org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581) -Refreshing Root WebApplicationContext: startup date [Tue Nov 07 10:39:36 CST 2017]; root of context hierarchy
+  [10:39:36] [INFO] -org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) -Loading XML bean definitions from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\spring-core.xml]
+  [10:39:37] [INFO] -org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) -Loading XML bean definitions from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\spring-orm.xml]
+  [10:39:37] [INFO] -org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317) -Loading XML bean definitions from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\spring-webmvc.xml]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\conf.properties]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\db.properties]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\log4j.properties]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\ywcommon.properties]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\conf.properties]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\db.properties]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\log4j.properties]
+  [10:39:37] [INFO] -org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172) -Loading properties file from file [D:\Workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\anxincarapi\WEB-INF\classes\ywcommon.properties]
+  [10:39:39] [INFO] -com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:715) -{dataSource-1} inited
+  [10:39:40] [INFO] -org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) -HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+  [10:39:40] [INFO] -org.hibernate.Version.logVersion(Version.java:54) -HHH000412: Hibernate Core {4.3.8.Final}
+  [10:39:40] [INFO] -org.hibernate.cfg.Environment.<clinit>(Environment.java:239) -HHH000206: hibernate.properties not found
+  [10:39:40] [INFO] -org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:346) -HHH000021: Bytecode provider name : javassist
+  [10:39:40] [INFO] -org.hibernate.dialect.Dialect.<init>(Dialect.java:145) -HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  [10:39:40] [INFO] -org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:62) -HHH000399: Using default transaction strategy (direct JDBC transactions)
+  [10:39:40] [INFO] -org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47) -HHH000397: Using ASTQueryTranslatorFactory
+  [10:39:41] [INFO] -org.springframework.orm.hibernate4.HibernateTransactionManager.afterPropertiesSet(HibernateTransactionManager.java:360) -Using DataSource [{
+	CreateTime:"2017-11-07 10:39:38",
+	ActiveCount:0,
+	PoolingCount:5,
+	CreateCount:5,
+	DestroyCount:0,
+	CloseCount:1,
+	ConnectCount:1,
+	Connections:[
+		{ID:703096489, ConnectTime:"2017-11-07 10:39:39", UseCount:0, LastActiveTime:"2017-11-07 10:39:39"},
+		{ID:784086719, ConnectTime:"2017-11-07 10:39:39", UseCount:0, LastActiveTime:"2017-11-07 10:39:39"},
+		{ID:966036762, ConnectTime:"2017-11-07 10:39:39", UseCount:0, LastActiveTime:"2017-11-07 10:39:39"},
+		{ID:1413873843, ConnectTime:"2017-11-07 10:39:39", UseCount:0, LastActiveTime:"2017-11-07 10:39:39"},
+		{ID:1056041404, ConnectTime:"2017-11-07 10:39:39", UseCount:1, LastActiveTime:"2017-11-07 10:39:40"}
+	]
+}
+
+[
+	{
+	ID:703096489, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:784086719, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:966036762, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1413873843, 
+	poolStatements:[
+		]
+	},
+	{
+	ID:1056041404, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/account/updateUser],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.AccountController.updateUserInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/account/memberFlag],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.AccountController.updateMemberFlag()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/account/uploadHeadImg],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.AccountController.uploadHeadImg(java.lang.String,java.lang.String,org.springframework.web.multipart.MultipartFile)
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/account/syncUser],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.AccountController.syncUserInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/account/userDetail],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.AccountController.userInfoDetail()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/butlerIndex/butlerHome]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CarButlerIndexController.getButlerHome()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/butlerIndex/getWeatherLink]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CarButlerIndexController.getWeatherLink()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/vehicleList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getCarVehicleList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/cityAreaList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getCityAreaList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/jobCategorList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getJobCategory()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/brandList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getBrandList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/provinceList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getProvinceList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/cityList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getCityList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/jobOccupationList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getJobOccupation()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/common/seriesList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CommonController.getSeriesList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/coupons/cUserList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CouponsController.couponsUserList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/coupons/receive],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CouponsController.receiveCoupons()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/coupons/cBaseList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CouponsController.couponsBaseList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/coupons/employCoupons],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.CouponsController.employCoupons()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/DriverCar/getSessionKey]}" onto public java.lang.String com.ywsoftware.anxincar.controller.DriverCarController.getSessionKey()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/DriverCar/doAdd]}" onto public java.lang.String com.ywsoftware.anxincar.controller.DriverCarController.doAdd()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/label/getLabel],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.LabelInfoController.getLabel()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/label/addLabel],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.LabelInfoController.addLabel()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/login/register],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.LoginController.register()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/login/login],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.LoginController.login()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/login/sendMessage],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.LoginController.sendMessage()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/menu/index],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MenuController.index()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/msgPhone/syncMsg],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MsgPhoneController.syncMsgInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/getInspectionInfo],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.getInspectionInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/updateInsuranceInfo],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.updateInsuranceInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/updateInspectionInfo],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.updateInspectionInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/deleteMycar],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.deleteMycar()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/findCarList],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.findCarList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/getCarInfo],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.getCarInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/updateCarInfo],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.updateCarInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/getInsuranceInfo],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.getInsuranceInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/addMycar],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.addMycar()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/getMainteInfo],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.getMainteInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/updateMainteInfo],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.updateMainteInfo()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/syncCar],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.syncCarList()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/mycar/getMainteDetail],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarController.getMainteDetail()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/purpose/updatePurpose],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarPurposeController.updatePurpose()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/purpose/getPurpose],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarPurposeController.getPurpose()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/purpose/syncPurpose],methods=[POST]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyCarPurposeController.syncPurpose()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/keeper/getMyKeeper],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.MyKeeperController.getMyKeeper()
+  [10:39:42] [INFO] -org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543) -Mapped "{[/uploadUrl/getUrlUpload],methods=[GET]}" onto public java.lang.String com.ywsoftware.anxincar.controller.UploadUrlController.getUrlUpload()
+  [10:39:43] [INFO] -org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) -Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Nov 07 10:39:36 CST 2017]; root of context hierarchy
+  [10:39:43] [INFO] -org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534) -Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Tue Nov 07 10:39:36 CST 2017]; root of context hierarchy
+  [10:39:43] [INFO] -org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:354) -Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+  [10:39:43] [INFO] -org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345) -Root WebApplicationContext: initialization completed in 7570 ms
+  [10:39:43] [INFO] -org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489) -FrameworkServlet 'springMVC': initialization started
+  [10:39:43] [INFO] -org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581) -Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Tue Nov 07 10:39:43 CST 2017]; parent: Root WebApplicationContext
+  [10:39:43] [INFO] -org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508) -FrameworkServlet 'springMVC': initialization completed in 35 ms
+  [10:40:10] [INFO] -com.ywsoftware.log.AppLog.info(AppLog.java:26) -聚合万年历接口访问URL:http://v.juhe.cn/calendar/day?date=2017-11-7&key=b94812490153ccb0b6e4bbc042e67e57,返回结果:{"reason":"Success","result":{"data":{"avoid":"置产.造船.开光.掘井.作灶.","animalsYear":"鸡","weekday":"星期二","suit":"合帐.裁衣.嫁娶.安床.入殓.移柩.破土.造畜椆栖.","lunarYear":"丁酉年","lunar":"九月十九","year-month":"2017-11","date":"2017-11-7"}},"error_code":0}
+  [10:40:10] [INFO] -org.hibernate.engine.internal.StatisticalLoggingSessionEventListener.end(StatisticalLoggingSessionEventListener.java:275) -Session Metrics {
+    442525 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    24135394 nanoseconds spent preparing 1 JDBC statements;
+    6355076 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    31339 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+  
